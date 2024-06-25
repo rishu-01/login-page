@@ -22,7 +22,7 @@ const Login = () => {
             </div>
             <form className="login-form" onSubmit={handleSubmit}>
                 <div >
-                    <img src="./logo512.png" class="logo-img" alt="logo"></img>
+                    <img src="./logo.jpg" class="logo-img" alt="logo"></img>
                 </div>
                 <h2>Welcome Back!</h2>
                 <p class="text-first">Please enter your details</p>
