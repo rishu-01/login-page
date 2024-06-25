@@ -15,8 +15,6 @@ body {
     justify-content: center;
     align-items: center;
     height: 100vh;
-    
-    flex-direction: column; /* Changed to column for small screens */
 }
 
 .login-image {
@@ -38,9 +36,9 @@ body {
 
 .logo-img {
     margin-top: 2rem;
-    height: 100px;
+    height: 4rem;
     margin-bottom: 2rem;
-    width: 100%;
+    width: 15rem;
 }
 
 h2 {
@@ -90,11 +88,16 @@ h2 {
 .remember-me {
     display: flex;
     align-items: center;
+    vertical-align: middle;
 }
 
 .remember-me label {
     margin-left: 0.5rem;
     white-space: nowrap;
+}
+.remember-me input[type="checkbox"] {
+    margin-bottom: 10px;
+    vertical-align: middle;
 }
 
 .forgot-password {
@@ -109,10 +112,13 @@ h2 {
 .terms{
     text-align: left;
     margin-top: 1rem;
+    font-size: medium;
+
 }
 .signup {
     text-align: center;
     margin-top: 1rem;
+    font-size:medium;
 }
 
 .terms a,
@@ -144,3 +150,4 @@ h2 {
         width: 50%; /* Adjust form width for larger screens */
     }
 }
+
